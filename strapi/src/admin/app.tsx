@@ -3,7 +3,9 @@ import { Information } from '@strapi/icons';
 
 export default {
   config: {
-    locales: [],
+    locales: [
+       'ja',
+    ],
   },
   bootstrap(app: StrapiApp) {},
   register(app: StrapiApp) {
